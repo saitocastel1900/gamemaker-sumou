@@ -1,0 +1,44 @@
+speedVal=1;
+MyLife=1;
+hit=false;
+if(GameManeger.Level>=10){
+	speedVal=1.25;
+}
+if(GameManeger.Level>=13){
+	speedVal=1.5;
+}
+if(GameManeger.Level>=16){
+	speedVal=1.75;
+}
+if(GameManeger.Level>=19){
+	speedVal=2;
+	MyLife=2;
+	sprite_index=Yatu2;
+}
+if(GameManeger.Level>=29){
+	speedVal=2.25;
+	MyLife=3;
+	sprite_index=Yatu3;
+}
+if(GameManeger.Level>=59){
+	speedVal=2.5;
+}
+if(GameManeger.Level>=99){
+	speedVal=2.75;
+	MyLife=4;
+	sprite_index=Yatu3;
+}
+if(GameManeger.Level>=150){
+	MyLife=5;
+}
+if(GameManeger.Level>=200){
+	MyLife=6;
+}
+if(GameManeger.Level>=250){
+	speedVal=3;
+}
+if(x<100)
+speed = 1*speedVal;
+if(x>1000)
+speed = -1*speedVal;
+up=true;down=false;
