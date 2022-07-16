@@ -28,6 +28,7 @@
     {"id":{"name":"Object11","path":"objects/Object11/Object11.yy",},"order":2,},
     {"id":{"name":"maiko_1","path":"sprites/maiko_1/maiko_1.yy",},"order":3,},
     {"id":{"name":"obj_maiko","path":"objects/obj_maiko/obj_maiko.yy",},"order":15,},
+    {"id":{"name":"ScreenShotManager","path":"objects/ScreenShotManager/ScreenShotManager.yy",},"order":0,},
     {"id":{"name":"Usi_spr","path":"sprites/Usi_spr/Usi_spr.yy",},"order":5,},
     {"id":{"name":"Kabu_spr","path":"sprites/Kabu_spr/Kabu_spr.yy",},"order":4,},
     {"id":{"name":"yatu_1","path":"sprites/yatu_1/yatu_1.yy",},"order":2,},
@@ -105,7 +106,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
@@ -135,6 +136,7 @@
     {"folderPath":"folders/UI.yy","order":15,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/UI/obj.yy","order":1,"resourceVersion":"1.0","name":"obj","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/UI/フォント.yy","order":10,"resourceVersion":"1.0","name":"フォント","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/TweetShare.yy","order":16,"resourceVersion":"1.0","name":"TweetShare","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
