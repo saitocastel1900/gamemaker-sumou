@@ -1,0 +1,20 @@
+if(Player_obj.weight>E1weight){
+	instance_destroy();
+	if(Player_obj.weight>E1weight/3){
+		Player_obj.weight-=(int64(E1weight/3));
+	}
+	GameManeger.PlayerHP-=10;
+	DebugManager.alarm[5]=1;
+	GameManeger.TScore+=1
+	instance_create_layer(150,500,layer,WINMessage_obj);
+}else{
+	instance_destroy();
+	if(Player_obj.weight>E1weight/5){
+		Player_obj.weight-=(int64(E1weight/5));
+	}
+	GameManeger.PlayerHP-=20;
+	DebugManager.alarm[7]=1;
+	DebugManager.alarm[6]=1;
+	instance_create_layer(150,500,layer,LOSEMessage_obj);
+}
+instance_destroy();

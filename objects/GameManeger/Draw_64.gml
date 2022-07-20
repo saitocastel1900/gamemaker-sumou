@@ -1,17 +1,12 @@
-if(room==Title){
+/// @description 説明をここに挿入
+// このエディターでコードを作成することができます
+draw_set_color(c_black);
+if(PlayerHP<0){
+	showHP=0;
+}else{
+	showHP=PlayerHP
 }
-
-if(room==Game){
-draw_text_transformed(515,625,"Time: ",2,2,0);
-	draw_text_transformed(497,675,"  Level:",2,2,0);
-	draw_text_transformed(515,725,"  Life:",2,2,0);
-draw_text_transformed(615,625,Time,2,2,0);
-draw_text_transformed(615,675,Level,2,2,0);
-draw_text_transformed(615,725,BiwakoHP,2,2,0);
-}
-
-if(room==Result){
-	draw_text(600,280,"スコア："+string(global.LastScore));
-	draw_text(600,380,"タイム："+string(global.LastTime/100));
-	
-}
+draw_text(0,0,"LIFE:"+string(showHP));
+draw_text(0,20,"PrizeMoney:"+string(SScore)+"$");
+draw_text(0,40,"Win:"+string(TScore));
+draw_text(0,60,"GameTime:"+string(GTime));
