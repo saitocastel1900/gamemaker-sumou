@@ -4,6 +4,9 @@ if(GameManeger.Finish==true){
 	if(image_angle<=-90){
 		//ここでリザルトに行く
 		show_message("リザルト");
+		
+		//齋藤亮磨　移動ルームコード追加しました
+		room_goto(Result)
 	}
 }else{
 if(keyboard_check(vk_right)){
