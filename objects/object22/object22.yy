@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "GameStart_img",
+    "path": "sprites/GameStart_img/GameStart_img.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -19,8 +22,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,7 +31,7 @@
     "path": "folders/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Share_obj",
+  "name": "Object22",
   "tags": [],
   "resourceType": "GMObject",
 }
