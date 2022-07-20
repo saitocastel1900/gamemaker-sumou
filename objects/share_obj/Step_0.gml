@@ -1,4 +1,3 @@
-
 /// @description 説明をここに挿入
 // このエディターでコードを作成することができます
 
@@ -19,5 +18,4 @@ if keyboard_check_pressed(ord("S"))
     {
 	url_open("https://twitter.com/intent/tweet?text=" + string(mess_1)+ "&url=" + linkUrl+ "&hashtags=" + hashtags+img_url);
     }
-	
 	

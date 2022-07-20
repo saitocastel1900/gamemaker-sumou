@@ -26,6 +26,7 @@
     {"id":{"name":"Guuzi_obj","path":"objects/Guuzi_obj/Guuzi_obj.yy",},"order":18,},
     {"id":{"name":"FinishText_spr","path":"sprites/FinishText_spr/FinishText_spr.yy",},"order":31,},
     {"id":{"name":"DokuFood_obj","path":"objects/DokuFood_obj/DokuFood_obj.yy",},"order":9,},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":2,},
     {"id":{"name":"Guuzi_spr","path":"sprites/Guuzi_spr/Guuzi_spr.yy",},"order":29,},
     {"id":{"name":"Gohan_spr3","path":"sprites/Gohan_spr3/Gohan_spr3.yy",},"order":13,},
     {"id":{"name":"LOSEMessage_obj","path":"objects/LOSEMessage_obj/LOSEMessage_obj.yy",},"order":22,},
@@ -40,9 +41,11 @@
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":16,},
     {"id":{"name":"Sio_spr","path":"sprites/Sio_spr/Sio_spr.yy",},"order":30,},
     {"id":{"name":"Zabuton1_spr_1","path":"sprites/Zabuton1_spr_1/Zabuton1_spr_1.yy",},"order":25,},
+    {"id":{"name":"Share_obj","path":"objects/Share_obj/Share_obj.yy",},"order":24,},
     {"id":{"name":"Enemy4_spr","path":"sprites/Enemy4_spr/Enemy4_spr.yy",},"order":35,},
     {"id":{"name":"Enemy2_spr","path":"sprites/Enemy2_spr/Enemy2_spr.yy",},"order":33,},
     {"id":{"name":"Chanko_spr_1","path":"sprites/Chanko_spr_1/Chanko_spr_1.yy",},"order":9,},
+    {"id":{"name":"Result","path":"rooms/Result/Result.yy",},"order":1,},
     {"id":{"name":"Player_obj","path":"objects/Player_obj/Player_obj.yy",},"order":0,},
     {"id":{"name":"Koban_obj","path":"objects/Koban_obj/Koban_obj.yy",},"order":16,},
     {"id":{"name":"Bandage_spr","path":"sprites/Bandage_spr/Bandage_spr.yy",},"order":6,},
@@ -62,6 +65,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"ルーム1","path":"rooms/ルーム1/ルーム1.yy",},},
+    {"roomId":{"name":"Result","path":"rooms/Result/Result.yy",},},
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/スプライト.yy","order":1,"resourceVersion":"1.0","name":"スプライト","tags":[],"resourceType":"GMFolder",},
@@ -87,7 +92,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.6.0.23",
   },
   "resourceVersion": "1.5",
   "name": "Sumou_player",
