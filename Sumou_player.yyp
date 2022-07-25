@@ -81,9 +81,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Result","path":"rooms/Result/Result.yy",},},
     {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
+    {"roomId":{"name":"Result","path":"rooms/Result/Result.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/スプライト.yy","order":1,"resourceVersion":"1.0","name":"スプライト","tags":[],"resourceType":"GMFolder",},
@@ -110,7 +110,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.0.23",
+    "IDEVersion": "2022.5.1.16",
   },
   "resourceVersion": "1.5",
   "name": "Sumou_player",

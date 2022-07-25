@@ -1,28 +1,33 @@
 if(GameManeger.isStart==true)return;
 if(GameManeger.Finish==true){
-	image_angle-=1
 	if(image_angle<=-90){
 		//ここでリザルトに行く
-		show_message("リザルト");
+		//show_message("リザルト");
 		
 		//齋藤亮磨　移動ルームコード追加しました
 		room_goto(Result)
+	}else{
+		image_angle-=1
 	}
 }else{
 if(keyboard_check(vk_right)){
+		if(x>730)return;
 		x+=moveSpeed;
 }
 
 if(keyboard_check(vk_left)){
+	if(x<190)return;
 		x-=moveSpeed;
 }
 
 
 if(keyboard_check(vk_up)){
+		if(y<120)return;
 		y-=moveSpeed;
 }
 
 if(keyboard_check(vk_down)){
+		if(y>610)return;
 		y+=moveSpeed;
 }
 
@@ -47,23 +52,4 @@ if(weight>=500){
 	moveSpeed=2;
 }
 
-if(x<170){
-		moveSpeed=0;
-		x+=1;
-}
-
-if(x>730){
-		moveSpeed=0;
-		x-=1;
-}
-
-if(y<120){
-		moveSpeed=0;
-		y+=1;
-}
-
-if(y>630){
-		moveSpeed=0;
-		y-=1;
-}
 }
