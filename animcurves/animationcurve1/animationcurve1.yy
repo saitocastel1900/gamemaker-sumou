@@ -1,5 +1,4 @@
 {
-  "name": "AnimationCurve1",
   "function": 0,
   "channels": [
     {"colour":4290799884,"visible":true,"points":[
@@ -12,6 +11,7 @@
     "path": "folders/UI.yy",
   },
   "resourceVersion": "1.2",
+  "name": "AnimationCurve1",
   "tags": [],
   "resourceType": "GMAnimCurve",
 }

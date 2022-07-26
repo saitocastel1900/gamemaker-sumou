@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sumou_player",
-    "path": "Sumou_player.yyp",
+    "name": "Sumou_player11",
+    "path": "Sumou_player11.yyp",
   },
   "resourceVersion": "1.0",
   "name": "_____33",
