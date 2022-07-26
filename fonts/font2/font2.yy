@@ -1,8 +1,4 @@
 {
-  "name": "Font2",
-  "includeTTF": false,
-  "size": 20.0,
-  "sampleText": "abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
@@ -10,12 +6,15 @@
   "applyKerning": 0,
   "fontName": "VDL ロゴＧ R",
   "styleName": "R",
+  "size": 20.0,
   "bold": false,
   "italic": false,
   "charset": 0,
   "AntiAlias": 1,
   "first": 0,
   "last": 0,
+  "sampleText": "abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
+  "includeTTF": false,
   "TTFName": "",
   "textureGroupId": {
     "name": "Default",
@@ -163,10 +162,11 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "ルーム",
-    "path": "folders/ルーム.yy",
+    "name": "Sumou_player11",
+    "path": "Sumou_player11.yyp",
   },
   "resourceVersion": "1.0",
+  "name": "Font2",
   "tags": [],
   "resourceType": "GMFont",
 }

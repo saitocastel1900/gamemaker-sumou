@@ -7,7 +7,7 @@ if(PlayerHP<0){
 }else{
 	showHP=PlayerHP
 }
-draw_set_color(#5C26D9)
+draw_set_color(#ffd900)
 draw_text(130,20,string(showHP));
 draw_set_color(#707070)
 //draw_text(520,4,"PrizeMoney:"+string(SScore)+"$");
