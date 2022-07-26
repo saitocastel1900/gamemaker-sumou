@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Repeat_img",
-    "path": "sprites/Repeat_img/Repeat_img.yy",
+    "name": "_____7_4x",
+    "path": "sprites/_____7_4x/_____7_4x.yy",
   },
   "solid": false,
   "visible": true,

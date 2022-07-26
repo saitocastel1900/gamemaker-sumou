@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Tweet_img",
-    "path": "sprites/Tweet_img/Tweet_img.yy",
+    "name": "_______2",
+    "path": "sprites/_______2/_______2.yy",
   },
   "solid": false,
   "visible": true,

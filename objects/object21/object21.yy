@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "GameQuit_img",
-    "path": "sprites/GameQuit_img/GameQuit_img.yy",
+    "name": "_____4_4x",
+    "path": "sprites/_____4_4x/_____4_4x.yy",
   },
   "solid": false,
   "visible": true,
